@@ -1,2 +1,2 @@
 # SS-MTr
-Code for the paper 'Spectral–Spatial Masked Transformer With Supervised and Contrastive Learning for Hyperspectral Image Classification'
+Code for the paper 'Spectral–Spatial Masked Transformer With Supervised and Contrastive Learning for Hyperspectral Image Classification'. Digital Object Identifier 10.1109/TGRS.2023.3264235
