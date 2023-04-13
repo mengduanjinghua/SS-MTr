@@ -2,7 +2,7 @@
 """
 Created on Tue Mar 12 16:28:40 2019
 
-@author: 黄凌博
+@author: HLB
 """
 
 # Building the Extended Morphological Profiles (EMP)
