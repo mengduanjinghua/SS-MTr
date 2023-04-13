@@ -2,7 +2,7 @@
 """
 Created on Wed Mar 20 08:26:52 2019
 
-@author: 黄凌博
+@author: HLB
 """
 
 import scipy.io as sio
