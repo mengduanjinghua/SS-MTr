@@ -2,7 +2,7 @@
 """
 Created on Sat May 16 10:08:19 2020
 
-@author: 黄凌博
+@author: HLB
 """
 
 import torch
