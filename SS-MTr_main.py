@@ -87,7 +87,7 @@ for num in range(0,num_of_ex):
     net = mae_vit_HSI_patch3(img_size=(27,27), in_chans=nband, hid_chans = args.hid_chans, embed_dim=args.encoder_dim, depth=args.encoder_depth, num_heads=args.encoder_num_heads,  mlp_ratio=args.mlp_ratio,
                               decoder_embed_dim=args.decoder_dim, decoder_depth=args.decoder_depth, decoder_num_heads=args.decoder_num_heads)
     net.cuda()
-    optimizer = optim.Adam(net.parameters(),lr = lr, weight_decay= 1e-4) 
+    optimizer = optim.Adam(net.parameters(),lr = lr) 
     scheduler = torch.optim.lr_scheduler.CosineAnnealingWarmRestarts(optimizer,  T_0=5,T_mult=2)
 
     
